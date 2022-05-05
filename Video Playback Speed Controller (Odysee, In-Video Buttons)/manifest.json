@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Odysee Playback Speed Controller",
+    "version": "1.0",
+    "description": "Change playback speed to any rate you want on Odysee.",
+    "icons": {
+        "48": "icons/odysee-playback-speed-controller-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://odysee.com/*",
+                "http://odysee.com/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "odysee-playspeed.js"
+            ]
+        }
+    ]
+}

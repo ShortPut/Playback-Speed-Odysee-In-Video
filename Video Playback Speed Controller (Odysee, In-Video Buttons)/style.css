@@ -1,0 +1,55 @@
+#decrease-speed-button {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 1);
+  padding: 5px;
+  text-decoration: none;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+#decrease-speed-button:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+#increase-speed-button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 1);
+  padding: 5px;
+  text-decoration: none;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+#increase-speed-button:hover {
+  background-color: rgba(0, 255, 0, 0.6);
+}
+
+#button-rate {
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+  padding: 5px;
+  text-decoration: none;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+#button-row {
+  position: absolute;
+  right: 5px;
+  top: 100px;
+  z-index: 999;
+  height: 40px;
+}
